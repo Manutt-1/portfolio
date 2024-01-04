@@ -7,3 +7,33 @@
   padding: 40px 70px;
   background: var(--color-1);
 }
+
+/* intro */
+
+.intro-bg {
+  height: 70vh;
+  background: var(--color-1);
+}
+
+.intro-text {
+  padding: 160px 70px;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.destaque {
+  color: #237ee9;
+}
+
+#view-work {
+  color: var(--color-11);
+  font-family: "Nunito";
+  font-weight: 500;
+  font-size: 1.25rem;
+  padding-left: 70px;
+}
+
+.arrow-down {
+  display: block;
+  padding: 20px 70px;
+}
