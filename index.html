@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600&display=swap," rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
   <title>Portfolio</title>
 </head>
@@ -16,14 +16,16 @@
     <div class="logo">
       <img src="img/logo.svg" alt="logo">
     </div>
-    <div class="menu">
-      <img src="img/menu.svg" alt="logo">
-    </div>
+    <ul class="menu">
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
   </header>
 
-  <section class="intro-bg">
+  <main class="intro-bg">
     <h1 class="intro-text">
-      hello 👋.<br>
+      Hello 👋🏻.<br>
       i'm Manoel Gonçalves, a versatile designer<br>
       living in Brazil, RJ. My current focus is<br>
       <span class="destaque">UX/UI</span> designer
@@ -34,7 +36,28 @@
     <span class="arrow-down">
       <img src="img/arrow-down.svg" alt="arrow-down">
     </span>
+  </main>
+
+  <section class="portfolio-bg" id="portfolio">
+    <h1 class="title">Portfolio</h1>
+
+    <div class="grid">
+      <div class="project-1">
+        <div>
+          <img src="img/wildbeast.jpg" alt="wildbeast">
+        </div>
+        <a class="link-portfolio" href="#">Wildbest (2023) →</a>
+      </div>
+      <div class="project-2">
+        <div>
+          <img src="img/fantastic-animals.jpg" alt="fantastic animals">
+        </div>
+        <a class="link-portfolio" href="#">Fantastic Animals (2023) →</a>
+      </div>
+    </div>
+    <span id="ornament"><img src="img/ornamento.svg" alt="ornament"></span>
   </section>
+
 </body>
 <script type="module" src="js/script.js"></script>
 
