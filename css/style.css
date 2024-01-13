@@ -16,3 +16,7 @@
   --color-11: #1a1a1a;
   --color-12: #0e0e0e;
 }
+
+body::-webkit-scrollbar {
+  display: none;
+}
