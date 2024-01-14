@@ -191,3 +191,23 @@
   font-weight: 600;
   color: var(--color-11);
 }
+
+/* Let's Talk */
+
+.talk-bg {
+  background: var(--white);
+  height: 40vh;
+}
+
+.talk-bg h1 {
+  font-size: 3rem;
+  color: var(--color-11);
+  margin: 70px 70px;
+}
+
+.talk-bg h2 {
+  font-size: 2.25rem;
+  color: var(--color-11);
+  font-weight: 600;
+  margin: 0 70px 70px;
+}
