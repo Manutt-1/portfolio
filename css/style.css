@@ -17,6 +17,13 @@
   --color-12: #0e0e0e;
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 0 70px;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
